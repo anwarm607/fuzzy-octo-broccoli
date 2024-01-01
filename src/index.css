@@ -1,11 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: montserrat, sans-serif;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #292d35;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,56 +16,43 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+::-webkit-scrollbar {
+  display: none;
 }
-a:hover {
-  color: #535bf2;
-}
+/* In your styles.css or styles.scss file */
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+@screen sm {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    font-size: 10px; /* Set the base font size for small screens */
   }
-  a:hover {
-    color: #747bff;
+}
+
+@screen md {
+  :root {
+    font-size: 12px; /* Set the base font size for medium screens */
   }
-  button {
-    background-color: #f9f9f9;
+}
+
+@screen lg {
+  :root {
+    font-size: 14px; /* Set the base font size for large screens */
+  }
+}
+
+@screen xl {
+  :root {
+    font-size: 16px; /* Set the base font size for extra-large screens */
+  }
+}
+
+@screen 2xl {
+  :root {
+    font-size: 22px; /* Set the base font size for double-extra-large screens */
+  }
+}
+
+@screen 3xl {
+  :root {
+    font-size: 26px; /* Set the base font size for double-extra-large screens */
   }
 }
