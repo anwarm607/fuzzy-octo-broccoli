@@ -21,7 +21,8 @@ export default {
         input_1_bg: "rgb(227, 229, 233, 0.5)",
         input_1_placeholder: "rgb(78, 86, 100, 0.5)",
         text_1: '#4E5664',
-        tint_1: '#E6F3F3'
+        tint_1: '#E6F3F3',
+        footer: '#1C1C1C'
       },
       fontFamily: {
         sans: ["Montserrat", "sans-serif"],
@@ -37,6 +38,18 @@ export default {
         "80v": "80vh",
         "90v": "90vh",
         "100v": "100vh",
+      },
+      width: {
+        "10v": "10vw",
+        "20v": "20vw",
+        "30v": "30vw",
+        "40v": "40vw",
+        "50v": "50vw",
+        "60v": "60vw",
+        "70v": "70vw",
+        "80v": "80vw",
+        "90v": "90vw",
+        "100v": "100vw",
       },
     },
   },
