@@ -67,6 +67,7 @@ export const HeroCarousel = ({
       </div>
       <div className={`flex justify-center w-full py-2 gap-2 bottom-3`}>
         {imgs.map((img: any, i: any) => {
+          console.log(img)
           return (
             <a
               onClick={(e) => handleClickBtn(e, i)}

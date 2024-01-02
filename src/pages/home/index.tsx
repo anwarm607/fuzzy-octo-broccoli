@@ -6,12 +6,8 @@ import { DesignOfTheWeek } from "./components/designoftheweek";
 import { Footer } from "./components/footer";
 import { Section } from "./components/section";
 import { WhatsNew } from "./components/whatsnew";
-import {
-  heroCarouselImgs,
-  hotCarouselImgs,
-  trendingMock,
-} from "../../mock/home";
-import { TooHot, Trending } from "./components/trending";
+import { heroCarouselImgs, trendingMock } from "../../mock/home";
+import { Trending } from "./components/trending";
 
 export const Home = () => {
   return (
