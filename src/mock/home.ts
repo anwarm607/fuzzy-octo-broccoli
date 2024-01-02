@@ -165,3 +165,42 @@ export const hotCarouselImgs = [
     "/assets/tooHot/3.png",
     "/assets/tooHot/4.png",
 ]
+
+export const trendingMock = [
+    {
+        img: '/assets/trending/1.png',
+        bg: '/assets/trending/1_bg.png',
+        title: 'Printed Shirt',
+        rowspan: '2'
+    },
+    {
+        img: '/assets/trending/2.png',
+        bg: '/assets/trending/2.png',
+        title: 'Sweaters',
+        rowspan: 0
+    },
+    {
+        img: '/assets/trending/3.png',
+        bg: '/assets/trending/3_bg.png',
+        title: 'T-Shirts',
+        rowspan: 0
+    },
+    {
+        img: '/assets/trending/4.png',
+        bg: '/assets/trending/4.png',
+        title: 'Stripped',
+        rowspan: 2
+    },
+    {
+        img: '/assets/trending/5.png',
+        bg: '/assets/trending/5_bg.png',
+        title: 'Co-Ords',
+        rowspan: 2
+    },
+    {
+        img: '/assets/trending/6.png',
+        bg: '/assets/trending/6.png',
+        title: 'Sleeveless Jackets',
+        rowspan: 0
+    }
+]

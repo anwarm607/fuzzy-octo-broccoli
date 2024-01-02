@@ -1,4 +1,4 @@
-import {categoriesJson} from "../../mock/home";
+import {categoriesJson} from "../../../../mock/home";
 
 export const Categories = () => {
   return (

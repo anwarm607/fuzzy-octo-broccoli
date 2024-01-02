@@ -1,4 +1,4 @@
-import { whatsnewJson } from "../../mock/home";
+import { whatsnewJson } from "../../../../mock/home";
 
 export const WhatsNew = () => {
   return (

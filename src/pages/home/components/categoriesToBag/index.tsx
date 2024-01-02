@@ -1,4 +1,4 @@
-import { categoriesToBagJson } from "../../mock/home";
+import { categoriesToBagJson } from "../../../../mock/home";
 
 export const CategoriesToBag = () => {
   const VerticalSplit = ({ data }: any) => {

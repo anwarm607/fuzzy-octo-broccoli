@@ -7,7 +7,7 @@ import { useState } from "react";
 export const BottomNavBar = () => {
   const [activeTab, setActiveTab] = useState("home");
   return (
-    <div className="lg:hidden btm-nav shadow-slate-400">
+    <div className="lg:hidden btm-nav shadow-slate-400 z-50">
       <button onClick={() => setActiveTab("home")}>
         <HomeIcon
           className={`${

@@ -6,14 +6,19 @@ import { DesignOfTheWeek } from "./components/designoftheweek";
 import { Footer } from "./components/footer";
 import { Section } from "./components/section";
 import { WhatsNew } from "./components/whatsnew";
-import { heroCarouselImgs, hotCarouselImgs } from "./mock/home";
+import {
+  heroCarouselImgs,
+  hotCarouselImgs,
+  trendingMock,
+} from "../../mock/home";
+import { TooHot, Trending } from "./components/trending";
 
 export const Home = () => {
   return (
     <div>
       <div className="sticky top-0 z-50">
-      <PromotionalBanner />
-      <NavBar />
+        <PromotionalBanner />
+        <NavBar />
       </div>
       <div className="py-6 px-4 lg:px-40 overflow-y-auto">
         <Categories />
@@ -31,14 +36,7 @@ export const Home = () => {
         />
         <Section
           title="Too hot to be missed"
-          content={
-            <HeroCarousel
-              imgs={hotCarouselImgs}
-              carouselId="hot_snap"
-              autoPlayMilliseconds={2000}
-              isFullSize={false}
-            />
-          }
+          content={<Trending data={trendingMock} />}
         />
         <Section title="Categories to bag" content={<CategoriesToBag />} />
       </div>
