@@ -12,7 +12,7 @@ export const NavBar = () => {
         <div className="flex items-center space-x-3">
           <DrawerMenu />
           <img
-            src="src/assets/logo.png"
+            src="/assets/logo.png"
             alt="Logo"
             className="w-24 lg:w-32 md:w-44 sm:w-24 w"
           />
