@@ -1,6 +1,5 @@
-import { NavBar, PromotionalBanner } from "../../components";
-import { BottomNavBar } from "./components/botttomNavBar";
-import { HeroCarousel } from "./components/carousel";
+import { NavBar, PromotionalBanner, BottomNavBar } from "../../components";
+import { HeroCarousel } from "../../components";
 import { Categories } from "./components/categories";
 import { CategoriesToBag } from "./components/categoriesToBag";
 import { DesignOfTheWeek } from "./components/designoftheweek";

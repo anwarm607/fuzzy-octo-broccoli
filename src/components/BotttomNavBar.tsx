@@ -1,7 +1,7 @@
-import HomeIcon from "../../../../assets/home.svg?react";
-import GlobeIcon from "../../../../assets/globe.svg?react";
-import UserIcon from "../../../../assets/user.svg?react";
-import GridIcon from "../../../../assets/grid.svg?react";
+import HomeIcon from "../assets/home.svg?react";
+import GlobeIcon from "../assets/globe.svg?react";
+import UserIcon from "../assets/user.svg?react";
+import GridIcon from "../assets/grid.svg?react";
 import { useState } from "react";
 
 export const BottomNavBar = () => {
